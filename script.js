@@ -49,7 +49,7 @@ const winFunc = (player) => {
 rollBtn.addEventListener("click", () => {
   const randomNum = Math.floor(Math.random() * 6) + 1;
   diceImg.style.display = "block";
-  diceImg.src = `dice-${randomNum}.png`;
+  diceImg.src = `images/dice-${randomNum}.png`;
 
   if (randomNum === 1) {
     swipePlayersFunc();
